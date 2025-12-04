@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cybersecurity Awareness - Bootstrap Version</title>
+
+  <!-- Adding Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="Cs.css">
+</head>
+
+<body class="bg-dark text-light">
+
+  <div class="container mt-4">
+
+    <h1 class="text-center text-info mb-3">Cybersecurity Awareness Website</h1>
+    <hr class="border-info">
+
+    <!-- 1. What is Cybersecurity -->
+    <h2 class="text-success">What is Cybersecurity?</h2>
+    <div class="card bg-secondary text-light p-3 mb-3">
+      Cybersecurity is the practice of protecting systems, networks and data from digital attacks, hacking and unauthorized access.
+    </div>
+
+    <!-- 2. Threats Section using Bootstrap cards -->
+    <h2 class="text-success">Common Cyber Threats</h2>
+    <div class="row g-3 mb-3">
+      <div class="col-md-4"><div class="card p-3 bg-secondary text-light">Phishing</div></div>
+      <div class="col-md-4"><div class="card p-3 bg-secondary text-light">Malware</div></div>
+      <div class="col-md-4"><div class="card p-3 bg-secondary text-light">Ransomware</div></div>
+      <div class="col-md-4"><div class="card p-3 bg-secondary text-light">Social Engineering</div></div>
+      <div class="col-md-4"><div class="card p-3 bg-secondary text-light">SQL Injection</div></div>
+      <div class="col-md-4"><div class="card p-3 bg-secondary text-light">DDoS Attacks</div></div>
+    </div>
+
+    <!-- 3. Importance -->
+    <h2 class="text-success">Why Cybersecurity is Important?</h2>
+    <div class="card bg-secondary text-light p-3 mb-3">
+      Without security, personal information or data can be stolen or misused. Cybersecurity prevents online attacks and protects privacy.
+    </div>
+
+    <!-- 4. Safety Tips using Bootstrap list -->
+    <h2 class="text-success">Basic Safety Tips</h2>
+    <ul class="list-group mb-3">
+      <li class="list-group-item bg-secondary text-light">Use strong passwords</li>
+      <li class="list-group-item bg-secondary text-light">Do not click unknown links</li>
+      <li class="list-group-item bg-secondary text-light">Enable two-factor authentication</li>
+      <li class="list-group-item bg-secondary text-light">Update software regularly</li>
+      <li class="list-group-item bg-secondary text-light">Avoid public Wi-Fi for banking</li>
+    </ul>
+
+    <!-- 5. Tools Section in grid format -->
+    <h2 class="text-success">Cybersecurity Tools</h2>
+    <div class="row g-3 mb-4">
+      <div class="col-md-3"><div class="card p-2 bg-secondary text-light">Antivirus</div></div>
+      <div class="col-md-3"><div class="card p-2 bg-secondary text-light">Firewall</div></div>
+      <div class="col-md-3"><div class="card p-2 bg-secondary text-light">VPN</div></div>
+      <div class="col-md-3"><div class="card p-2 bg-secondary text-light">Encryption Tools</div></div>
+    </div>
+
+   
+        <!-- Password Strength Checker (JavaScript Section) -->
+    <h2 class="text-success mt-4">Password Strength Checker</h2>
+    <p>Type a password and click the button to check the strength.</p>
+
+    <div class="mb-3">
+      <input type="password" id="passwordInput" class="form-control" placeholder="Enter password here">
+    </div>
+    <button class="btn btn-primary mb-3" onclick="checkPassword()">Check Strength</button>
+    <p id="passwordMessage"></p>
+
+     <!-- 6. Contact Section -->
+    <h2 class="text-success">Contact</h2>
+    <p>Email: ankitbhaun@example.com</p>
+
+
+    <!-- Simple Bootstrap Button to show component usage -->
+    <div class="text-center mb-4">
+      <button class="btn btn-primary">Learn More</button>
+    </div>
+
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="Cs.js"></script>
+</body>
+</html>
